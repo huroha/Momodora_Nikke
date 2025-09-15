@@ -1,0 +1,54 @@
+#include "pch.h"
+#include "CPlayerJumpDown.h"
+
+
+CPlayerJumpDown::CPlayerJumpDown()
+{
+}
+
+CPlayerJumpDown::~CPlayerJumpDown()
+{
+}
+
+
+void CPlayerJumpDown::FinalTick()
+{
+    if (GetStateMachine()->RigidBody2D()->IsGround())
+    {
+        if ((KEY_PRESSED(KEY::LEFT) || KEY_PRESSED(KEY::RIGHT))&& GetStateMachine()->RigidBody2D()->GetVelocity().x != 0)
+            GetStateMachine()->ChangeState(L"CPlayerRun");
+        else
+        {
+            GetStateMachine()->ChangeState(L"CPlayerLand");
+        }
+    }
+
+    if (KEY_PRESSED(KEY::LEFT))
+    {
+        if (GetStateMachine()->RigidBody2D()->GetVelocity().x > 0 && !(KEY_PRESSED(KEY::RIGHT)))
+            GetStateMachine()->RigidBody2D()->SetVelocityX(-1);
+
+        GetStateMachine()->RigidBody2D()->AddForce(Vec3(-600.f, 0.f, 0.f));
+    }
+    if (KEY_PRESSED(KEY::RIGHT))
+    {
+        if (GetStateMachine()->RigidBody2D()->GetVelocity().x < 0 && !(KEY_PRESSED(KEY::LEFT)))
+            GetStateMachine()->RigidBody2D()->SetVelocityX(1);
+        GetStateMachine()->RigidBody2D()->AddForce(Vec3(600.f, 0.f, 0.f));
+    }
+    if (GetStateMachine()->RigidBody2D()->GetVelocity().x > 0)
+        GetStateMachine()->Transform()->SetRelativeScale(230.f, 230.f, 1.f);
+    else if (GetStateMachine()->RigidBody2D()->GetVelocity().x < 0)
+        GetStateMachine()->Transform()->SetRelativeScale(-230.f, 230.f, 1.f);
+
+}
+
+void CPlayerJumpDown::Enter()
+{
+    GetStateMachine()->FlipbookPlayer()->Play(5, 10.f, false);
+}
+
+void CPlayerJumpDown::Exit()
+{
+
+}

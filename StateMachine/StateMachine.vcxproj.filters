@@ -1,0 +1,375 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="01. StateMgr">
+      <UniqueIdentifier>{23ae2c78-7f1d-41e6-b191-8f78d2c66a52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States">
+      <UniqueIdentifier>{33cba663-46d2-43c8-9f3a-a4f44003733f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Player">
+      <UniqueIdentifier>{1555f333-0634-4277-bd04-0e30f19871aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Default">
+      <UniqueIdentifier>{f2ddd6cd-13fb-42b0-b4f5-68902421f3e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Player\PlayerAttack">
+      <UniqueIdentifier>{89038321-866d-47c0-b89d-ed4f2d1266b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Player\PlayerControll">
+      <UniqueIdentifier>{243e20aa-c530-4b27-8e89-c0da17c5b311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Player\PlayerHit">
+      <UniqueIdentifier>{da92abe2-faef-4051-88ee-223ccc2ae5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\NpcDialog">
+      <UniqueIdentifier>{e118a233-30ef-4199-9255-69d4012c14fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\NpcDialog\TempleNpc">
+      <UniqueIdentifier>{a5219447-172e-4cfa-83d8-7201083d74ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Effect">
+      <UniqueIdentifier>{fbd9fde4-c6b4-4856-b7a4-f30a182b83fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\PauseUI">
+      <UniqueIdentifier>{a91d15bd-1af4-47d2-9b9f-aae63cf05503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\NpcDialog\TownNpc">
+      <UniqueIdentifier>{bb86f8db-867f-4de7-a078-11dc5964dd97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\NpcDialog\EnterNpc">
+      <UniqueIdentifier>{564b7cac-6137-4f39-a348-cb0244d1a349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Enemy">
+      <UniqueIdentifier>{f23277b8-9b94-4c03-95d5-045387f736b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Enemy\Monster1">
+      <UniqueIdentifier>{6a5a4152-3168-4b26-a18a-22706379a5cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Enemy\Monster2">
+      <UniqueIdentifier>{a210ce17-b63e-4f55-984d-e4af1c515aa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Enemy\Boss1">
+      <UniqueIdentifier>{52bf23ea-c533-4e88-8ae5-c3b540f71f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. States\Enemy\Monster3">
+      <UniqueIdentifier>{274d01be-8bc4-43e1-95e3-604e6a4425d5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CStateMgr.h">
+      <Filter>01. StateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttack1.h">
+      <Filter>02. States\Player\PlayerAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttack2.h">
+      <Filter>02. States\Player\PlayerAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttack3.h">
+      <Filter>02. States\Player\PlayerAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterIdle.h">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterRun.h">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterAttack.h">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerBrake.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerIdle.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerIdletoRun.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerJumpDown.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerJumpUp.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerLand.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRoll.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerRun.h">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterHit.h">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster1Dead.h">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHitState.h">
+      <Filter>02. States\Player\PlayerHit</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTemD1.h">
+      <Filter>02. States\NpcDialog\TempleNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTemD2.h">
+      <Filter>02. States\NpcDialog\TempleNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTemD3.h">
+      <Filter>02. States\NpcDialog\TempleNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2Idle.h">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2Attack.h">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2Hit.h">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2Dead.h">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Idle.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Attack.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Attack2.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Dead.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Attack3.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Idle2.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuakeEffect.h">
+      <Filter>02. States\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuakeEffectNone.h">
+      <Filter>02. States\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1None.h">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CPauseMain.h">
+      <Filter>02. States\PauseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPauseOption.h">
+      <Filter>02. States\PauseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CPauseMemo.h">
+      <Filter>02. States\PauseUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTown1_d1.h">
+      <Filter>02. States\NpcDialog\TownNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTown1_d2.h">
+      <Filter>02. States\NpcDialog\TownNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTown1_d3.h">
+      <Filter>02. States\NpcDialog\TownNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcEnter_d1.h">
+      <Filter>02. States\NpcDialog\EnterNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcEnter_d2.h">
+      <Filter>02. States\NpcDialog\EnterNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcEnter_d3.h">
+      <Filter>02. States\NpcDialog\EnterNpc</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3Attack.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3Dead.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3Idle.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3Hit.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CBombIdle.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CBombBoom.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoomMove.h">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="StateMachine.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CStateMgr.cpp">
+      <Filter>01. StateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttack1.cpp">
+      <Filter>02. States\Player\PlayerAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttack2.cpp">
+      <Filter>02. States\Player\PlayerAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttack3.cpp">
+      <Filter>02. States\Player\PlayerAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterIdle.cpp">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterRun.cpp">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterAttack.cpp">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerBrake.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerIdle.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerIdletoRun.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerJumpDown.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerJumpUp.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerLand.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRoll.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerRun.cpp">
+      <Filter>02. States\Player\PlayerControll</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterHit.cpp">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster1Dead.cpp">
+      <Filter>02. States\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHitState.cpp">
+      <Filter>02. States\Player\PlayerHit</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTemD1.cpp">
+      <Filter>02. States\NpcDialog\TempleNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTemD2.cpp">
+      <Filter>02. States\NpcDialog\TempleNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTemD3.cpp">
+      <Filter>02. States\NpcDialog\TempleNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2Idle.cpp">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2Attack.cpp">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2Hit.cpp">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2Dead.cpp">
+      <Filter>02. States\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Idle.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Attack.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Attack2.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Dead.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Attack3.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Idle2.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuakeEffect.cpp">
+      <Filter>02. States\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuakeEffectNone.cpp">
+      <Filter>02. States\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1None.cpp">
+      <Filter>02. States\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CPauseMain.cpp">
+      <Filter>02. States\PauseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPauseOption.cpp">
+      <Filter>02. States\PauseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CPauseMemo.cpp">
+      <Filter>02. States\PauseUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTown1_d1.cpp">
+      <Filter>02. States\NpcDialog\TownNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTown1_d2.cpp">
+      <Filter>02. States\NpcDialog\TownNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTown1_d3.cpp">
+      <Filter>02. States\NpcDialog\TownNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcEnter_d1.cpp">
+      <Filter>02. States\NpcDialog\EnterNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcEnter_d2.cpp">
+      <Filter>02. States\NpcDialog\EnterNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcEnter_d3.cpp">
+      <Filter>02. States\NpcDialog\EnterNpc</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3Attack.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3Dead.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3Idle.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3Hit.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CBombIdle.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CBombBoom.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoomMove.cpp">
+      <Filter>02. States\Enemy\Monster3</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

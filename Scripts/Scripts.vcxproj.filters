@@ -1,0 +1,366 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>00. Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>02. Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>02. Scripts</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h">
+      <Filter>01. ScriptMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundScript.h">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundBoard.h">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleLeaf.h">
+      <Filter>02. Scripts\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundWall.h">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CBGMove.h">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CBGBellRing.h">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerHit.h">
+      <Filter>02. Scripts\Player\PlayerHit</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerAttackScript.h">
+      <Filter>02. Scripts\Player\PlayerAttack</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster1Script.h">
+      <Filter>02. Scripts\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterSetTarget.h">
+      <Filter>02. Scripts\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster1Hit.h">
+      <Filter>02. Scripts\Enemy\Monster1</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpControll.h">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpRestore.h">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="CMpControll.h">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTemple.h">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTempleDialog.h">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2Script.h">
+      <Filter>02. Scripts\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2Target.h">
+      <Filter>02. Scripts\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster2HitScript.h">
+      <Filter>02. Scripts\Enemy\Monster2</Filter>
+    </ClInclude>
+    <ClInclude Include="CWaterSplash.h">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Script.h">
+      <Filter>02. Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1SetTarget.h">
+      <Filter>02. Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1Hit.h">
+      <Filter>02. Scripts\Enemy\Boss1</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1HpControll.h">
+      <Filter>02. Scripts\Enemy\Boss1\BossHP_Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="CBoss1HpEffect.h">
+      <Filter>02. Scripts\Enemy\Boss1\BossHP_Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayButtonScript.h">
+      <Filter>02. Scripts\StageMove</Filter>
+    </ClInclude>
+    <ClInclude Include="CBossStageScript.h">
+      <Filter>02. Scripts\StageMove</Filter>
+    </ClInclude>
+    <ClInclude Include="CPauseFont.h">
+      <Filter>02. Scripts\UI_Script\Pause_Font</Filter>
+    </ClInclude>
+    <ClInclude Include="CHpReduceFx.h">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>02. Scripts\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CFontPos.h">
+      <Filter>02. Scripts\UI_Script\FontPos</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundSlope.h">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CChangeStage.h">
+      <Filter>02. Scripts\StageMove</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcTownDialog.h">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CGroundFix.h">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CNpcEnterDialog.h">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="CCeilingCheck.h">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClInclude>
+    <ClInclude Include="CDoroMove.h">
+      <Filter>02. Scripts\NPC\DORO</Filter>
+    </ClInclude>
+    <ClInclude Include="CJellyJump.h">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3Script.h">
+      <Filter>02. Scripts\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3HitScript.h">
+      <Filter>02. Scripts\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonster3SetTarget.h">
+      <Filter>02. Scripts\Enemy\Monster3</Filter>
+    </ClInclude>
+    <ClInclude Include="CCopyRight.h">
+      <Filter>02. Scripts\UI_Script\CopyRight</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scripts.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>00. Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>02. Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>02. Scripts</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp">
+      <Filter>01. ScriptMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundScript.cpp">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundBoard.cpp">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleLeaf.cpp">
+      <Filter>02. Scripts\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundWall.cpp">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CBGMove.cpp">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CBGBellRing.cpp">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerHit.cpp">
+      <Filter>02. Scripts\Player\PlayerHit</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttackScript.cpp">
+      <Filter>02. Scripts\Player\PlayerAttack</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster1Script.cpp">
+      <Filter>02. Scripts\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterSetTarget.cpp">
+      <Filter>02. Scripts\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster1Hit.cpp">
+      <Filter>02. Scripts\Enemy\Monster1</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpControll.cpp">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpRestore.cpp">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="CMpControll.cpp">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTemple.cpp">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTempleDialog.cpp">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2Script.cpp">
+      <Filter>02. Scripts\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2Target.cpp">
+      <Filter>02. Scripts\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster2HitScript.cpp">
+      <Filter>02. Scripts\Enemy\Monster2</Filter>
+    </ClCompile>
+    <ClCompile Include="CWaterSplash.cpp">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Script.cpp">
+      <Filter>02. Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1SetTarget.cpp">
+      <Filter>02. Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1Hit.cpp">
+      <Filter>02. Scripts\Enemy\Boss1</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1HpControll.cpp">
+      <Filter>02. Scripts\Enemy\Boss1\BossHP_Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="CBoss1HpEffect.cpp">
+      <Filter>02. Scripts\Enemy\Boss1\BossHP_Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayButtonScript.cpp">
+      <Filter>02. Scripts\StageMove</Filter>
+    </ClCompile>
+    <ClCompile Include="CBossStageScript.cpp">
+      <Filter>02. Scripts\StageMove</Filter>
+    </ClCompile>
+    <ClCompile Include="CPauseFont.cpp">
+      <Filter>02. Scripts\UI_Script\Pause_Font</Filter>
+    </ClCompile>
+    <ClCompile Include="CHpReduceFx.cpp">
+      <Filter>02. Scripts\UI_Script\HP_Controll</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>02. Scripts\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CFontPos.cpp">
+      <Filter>02. Scripts\UI_Script\FontPos</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundSlope.cpp">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CChangeStage.cpp">
+      <Filter>02. Scripts\StageMove</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcTownDialog.cpp">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CGroundFix.cpp">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CNpcEnterDialog.cpp">
+      <Filter>02. Scripts\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="CCeilingCheck.cpp">
+      <Filter>02. Scripts\Ground</Filter>
+    </ClCompile>
+    <ClCompile Include="CDoroMove.cpp">
+      <Filter>02. Scripts\NPC\DORO</Filter>
+    </ClCompile>
+    <ClCompile Include="CJellyJump.cpp">
+      <Filter>02. Scripts\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3Script.cpp">
+      <Filter>02. Scripts\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3HitScript.cpp">
+      <Filter>02. Scripts\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonster3SetTarget.cpp">
+      <Filter>02. Scripts\Enemy\Monster3</Filter>
+    </ClCompile>
+    <ClCompile Include="CCopyRight.cpp">
+      <Filter>02. Scripts\UI_Script\CopyRight</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="01. ScriptMgr">
+      <UniqueIdentifier>{9135b2a3-1d9a-4b1a-97f0-07004156a688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts">
+      <UniqueIdentifier>{d33388b9-151c-4978-a35c-9dbcfab5bd3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="00. Default">
+      <UniqueIdentifier>{8b1dc913-727d-45d5-852c-46f4deb7cd66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Ground">
+      <UniqueIdentifier>{f6853ab5-0281-4044-99e6-6dae383bbc25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Particle">
+      <UniqueIdentifier>{fe9d3042-3e53-405d-87e4-2792d53a325e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\BackGround">
+      <UniqueIdentifier>{7a47b25d-a479-4d28-8bb8-33781834e88a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\UI_Script">
+      <UniqueIdentifier>{7d564204-f879-489b-8150-6421acbec827}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\UI_Script\HP_Controll">
+      <UniqueIdentifier>{d961b6f1-51ce-4760-a891-6349dc61b3a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\NPC">
+      <UniqueIdentifier>{01fffe85-c114-47d8-8036-de3843e2c670}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\StageMove">
+      <UniqueIdentifier>{02f46dff-216c-47bc-b191-aee06728967f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\UI_Script\Pause_Font">
+      <UniqueIdentifier>{ae6ee0d9-f0d7-44c9-aaf6-3dd4fb147143}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Player">
+      <UniqueIdentifier>{d5c88b00-d999-43b8-b744-4d36659f66f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Player\PlayerAttack">
+      <UniqueIdentifier>{43c205a5-3a8d-43be-96d3-624e3962cf12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Player\PlayerHit">
+      <UniqueIdentifier>{16e0e1bc-5e32-4b12-b94c-a06c866be3ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\UI_Script\FontPos">
+      <UniqueIdentifier>{60e01368-4854-49e1-bffb-caf32dd4c828}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\NPC\DORO">
+      <UniqueIdentifier>{3f8d158d-f544-4534-8b28-51fc351d7051}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Enemy">
+      <UniqueIdentifier>{899afe77-fb23-4661-a6ba-719fd913ad66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Enemy\Monster1">
+      <UniqueIdentifier>{927cba03-c231-4fed-83c9-916dfdb6534c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Enemy\Monster2">
+      <UniqueIdentifier>{b4f09dcd-6244-4857-ac88-c1caefafa88c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Enemy\Boss1">
+      <UniqueIdentifier>{911ae350-1a89-459e-b3dc-331785400d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Enemy\Boss1\BossHP_Controll">
+      <UniqueIdentifier>{dfc55642-3570-4fe3-b4aa-0ac2fd0ec2da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\Enemy\Monster3">
+      <UniqueIdentifier>{23c5cba5-4714-4b17-9554-699bb231d360}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Scripts\UI_Script\CopyRight">
+      <UniqueIdentifier>{580883ea-f287-4727-9027-36f767960db4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
