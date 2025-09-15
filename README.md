@@ -27,7 +27,8 @@ DirectX 11 기반 2D 게임 엔진과 Momodora 스타일 게임 프로젝트입�
 - 주차별 개발 과정 및 구현 내용 정리
 - 4주간의 개발 과정과 기술적 문제 해결 과정 기록
 - `Documentation/images/` 폴더에 UI 스크린샷 및 시스템 다이어그램 포함
-- 게임 시연 영상 (YouTube 링크)
+- [![게임 시연 영상](https://img.youtube.com/vi/RTfm6PFkJyg/0.jpg)](https://youtu.be/RTfm6PFkJyg)
+
 
 ## 개발 환경
 
